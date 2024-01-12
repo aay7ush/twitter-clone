@@ -1,3 +1,9 @@
+import Header from "@/components/Header"
+
 export default function Home() {
-  return <h1 className="font-bold text-3xl underline">Twitter clone</h1>
+	return (
+		<>
+			<Header label="Home" />
+		</>
+	)
 }
